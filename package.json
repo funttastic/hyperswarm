@@ -1,0 +1,14 @@
+{
+  "name": "hyperswarm",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+		"dev": "echo \"Error: not yet available\" && exit 1",
+		"stg": "echo \"Error: not yet available\" && exit 1",
+		"prd": "echo \"Error: not yet available\" && exit 1",
+    "test": "echo \"Error: not yet available\" && exit 1"
+  },
+  "author": "Danilo Araújo Silva",
+  "license": "CC-BY-NC-4.0",
+  "description": "Hyperswarm implementation."
+}
