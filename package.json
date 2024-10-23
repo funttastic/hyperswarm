@@ -3,12 +3,37 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-		"dev": "echo \"Error: not yet available\" && exit 1",
-		"stg": "echo \"Error: not yet available\" && exit 1",
-		"prd": "echo \"Error: not yet available\" && exit 1",
+    "dev": "echo \"Error: not yet available\" && exit 1",
+    "stg": "echo \"Error: not yet available\" && exit 1",
+    "prd": "echo \"Error: not yet available\" && exit 1",
     "test": "echo \"Error: not yet available\" && exit 1"
   },
   "author": "Danilo Araújo Silva",
-  "license": "CC-BY-NC-4.0",
-  "description": "Hyperswarm implementation."
+  "license": "CC-BY-NC-ND-4.0",
+  "description": "Hyperswarm implementation.",
+  "dependencies": {
+    "@hyperswarm/cli": "^1.4.3",
+    "@hyperswarm/connect-test": "^2.0.0",
+    "@hyperswarm/dht": "^6.5.1",
+    "@hyperswarm/dht-relay": "^0.4.3",
+    "@hyperswarm/discovery": "^2.0.1",
+    "@hyperswarm/doctor": "^1.0.1",
+    "@hyperswarm/hypersign": "^2.1.1",
+    "@hyperswarm/immutable-record": "^1.1.0",
+    "@hyperswarm/kat": "^0.0.7",
+    "@hyperswarm/network": "^2.1.0",
+    "@hyperswarm/replicator": "^2.0.2",
+    "@hyperswarm/rpc": "^3.3.2",
+    "@hyperswarm/secret-stream": "^6.7.0",
+    "@hyperswarm/seeders": "^1.1.6",
+    "@hyperswarm/testnet": "^3.1.4",
+    "@hyperswarm/tunnel": "^1.1.2",
+    "autobase": "^6.5.9",
+    "hp-rpc-cli": "^0.0.5",
+    "hyperbee": "^2.20.4",
+    "hypercore": "^10.37.25",
+    "hyperdht": "^6.19.0",
+    "hyperdrive": "^11.13.0",
+    "hyperswarm": "^4.8.4"
+  }
 }
