@@ -1,5 +1,5 @@
 {
-  "name": "hyperswarm",
+  "name": "p2p",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "author": "Danilo Araújo Silva",
   "license": "CC-BY-NC-ND-4.0",
-  "description": "Hyperswarm implementation.",
+  "description": "Peer to peer application.",
   "dependencies": {
     "@hyperswarm/cli": "^1.4.3",
     "@hyperswarm/connect-test": "^2.0.0",
