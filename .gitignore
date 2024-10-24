@@ -16,3 +16,9 @@ typings/
 # Node.js dependency directory
 node_modules/
 /.vscode/
+
+# Storage
+storage/
+
+# Temporary
+temporary/

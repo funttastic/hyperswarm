@@ -2,10 +2,11 @@
   "name": "p2p",
   "version": "0.0.1",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "echo \"Error: not yet available\" && exit 1",
-    "stg": "echo \"Error: not yet available\" && exit 1",
-    "prd": "echo \"Error: not yet available\" && exit 1",
+    "dev": "node src/index.js",
+    "stg": "node src/index.js",
+    "prd": "node src/index.js",
     "test": "echo \"Error: not yet available\" && exit 1"
   },
   "author": "Danilo Araújo Silva",
@@ -34,6 +35,7 @@
     "hypercore": "^10.37.25",
     "hyperdht": "^6.19.0",
     "hyperdrive": "^11.13.0",
-    "hyperswarm": "^4.8.4"
+    "hyperswarm": "^4.8.4",
+    "random-access-memory": "^6.2.1"
   }
 }
